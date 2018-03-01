@@ -18,11 +18,20 @@
     cursor:pointer; /*I want the button to display the hand symbol when you hover on it*/
 }
 
+.question {
+  border-bottom: 1px solid #989898;
+  padding-bottom: 20px;
+}
+
 .question p {
   color: #07889B;
   font-family: Georgia;
   font-size: 16px;
-  margin: 5px 0;
+  margin: 8px 0;
+}
+
+.question input[type="radio"] {
+  margin-left: 12px;
 }
 
 .question h2 {
@@ -36,4 +45,11 @@
     display: block;
     border: 2px solid #ccc;
     width: 80%;
+}
+
+.question p.code-snippet {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  color: #00008b;
 }
