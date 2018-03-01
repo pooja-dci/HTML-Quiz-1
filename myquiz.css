@@ -1,0 +1,39 @@
+.content {
+  position: absolute;
+  left: 50%; /*Positions the div at the center of the page horizontally*/
+  top: 50%;  /*Positions the div at the center of the page vertically*/
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.startQuiz {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer; /*I want the button to display the hand symbol when you hover on it*/
+}
+
+.question p {
+  color: #07889B;
+  font-family: Georgia;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.question h2 {
+  color: #07889B;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+.question .fill-up {
+    padding: 8px;
+    display: block;
+    border: 2px solid #ccc;
+    width: 80%;
+}
